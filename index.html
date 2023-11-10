@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HummingbirdHoller.house</title>
+<style>
+  /* CSS to make the background image cover the entire screen responsively */
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .bg-image {
+    /* The image used */
+    background-image: url('images/background.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Fixed background to prevent scrolling with the content */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  /* Add styles for your content here */
+  .content {
+    /* Positioning the content over the background */
+    position: relative;
+    z-index: 1;
+
+    /* Add padding and styles for your content */
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+</body>
+</html>
