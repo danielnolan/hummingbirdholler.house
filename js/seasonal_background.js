@@ -2,16 +2,16 @@ const currentTime = new Date();
 const month = currentTime.getMonth();
 
 if ([2, 3, 4].includes(month)) {
-  var season = "spring.jpg";
+  var season = "spring.jpeg";
 }
 if ([5, 6, 7].includes(month)) {
-  var season = "summer.jpg";
+  var season = "summer.jpeg";
 }
 if ([8, 9, 10].includes(month)) {
-  var season = "fall.jpg";
+  var season = "fall.jpeg";
 }
 if ([11, 0, 1].includes(month)) {
-  var season = "winter.jpg";
+  var season = "winter.jpeg";
 }
 
 document.addEventListener("DOMContentLoaded",function(){
